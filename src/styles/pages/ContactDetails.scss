@@ -1,0 +1,75 @@
+.contact-details{
+    height: 70vh;
+    font-size: 1.3rem;
+    img{border-radius: 100%;}
+    .contact-info{
+        margin: 0 auto;
+        background-color: #1e1f1fa6;
+        border-radius: 50px;
+        width: 100%;
+        padding:1rem; 
+        position: relative;
+        h1{
+            margin-bottom: 1rem;
+            border-left: 2.5px solid #feefaa;
+            margin: .3rem 1.35rem .5rem;
+            padding-left:.5rem; 
+            font-weight: 400;
+        }
+        label{
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: aliceblue;
+        }
+        button{
+            border: none;
+            background: none;
+            cursor: pointer;
+            margin-top: 2rem;
+            box-shadow: 0 0 0 2px #8ba3aa;
+            border-radius: 3px;
+            color: aliceblue;
+            transition: all .3s ease-in-out;
+            &:hover{box-shadow: 0 0 0 3px #feefaa; border-radius: 3px;}
+
+        }
+        .contact-info-content{
+            align-self: flex-end;
+            margin-left:5rem; 
+            input{
+                background:none;
+                border:none;
+                color: #f0f8ffde;
+                border-left: 2.5px solid #4a9db4;
+                margin: .3rem 1.35rem .5rem;
+                font-size: 1.6rem;
+                padding-left:.5rem; 
+                outline: none;
+            }
+            .edit{
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+            .save-btn{position: absolute; right:3rem;}
+        }
+        .delete-btn{position: absolute;right:3rem;font-size: 1.8rem;top:5rem;}
+        @include for-mobile-layout{
+            flex-direction: column;
+            .contact-info-content{
+                margin: 0;
+                align-self: auto;
+                margin-top:3rem; 
+                .email{
+                    font-size: 1.3rem;
+                }
+                .save-btn{right:14rem;top:26rem;}
+
+            }
+            .delete-btn{top:26rem;}
+
+        }
+    }
+    @include for-mobile-layout{
+        img{width: 7rem;align-self: center;}
+    }
+}

@@ -1,0 +1,37 @@
+
+.home-page{
+    width: 100%;
+    height: 100%;
+    margin: .5rem 0;
+    background-color: #1e1f1fa6;
+    border-radius: 15px;
+    .user-info{
+        width: 100%;
+        padding: 1.5rem;
+        h1{color: aliceblue; font-size: 2.3rem; border-bottom: .5px solid #ab7e64bd; padding-bottom:.2rem; }
+        h3{
+            font-size: 1.5rem;
+            margin-top:.5rem;
+            span{color: #6ac501e3; font-size: 1.5rem;}
+        }
+        span{font-size: 1.3rem; color: #c6ccd3c4; }
+        section{margin-top: .5rem;}
+        .btc-usd {            
+            width: 30%;
+            overflow: hidden;
+            h1{
+                text-overflow: ellipsis;
+                border: none;
+            }
+        }
+        .stats{
+            margin-top: 3rem;
+        }
+        @include for-mobile-layout{
+                h1{font-size: 1.5rem;}
+                h3{font-size: 1.3rem;}
+                span{font-size: 1rem;}
+        }
+    }
+    
+}

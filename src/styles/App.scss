@@ -1,0 +1,68 @@
+@import './variables.scss';
+@import './base.scss';
+@import './helpers.scss';
+@import './mixins.scss';
+
+//PAGES
+@import './pages/Home.scss';
+@import './pages/Contacts.scss';
+@import './pages/ContactDetails.scss';
+
+//CMPS
+@import './cmps/ContactPrev.scss';
+@import './cmps/ContactDetailsNav.scss';
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Muli', sans-serif;
+  color: #f0f8ffcc;
+  background: url('../bgc2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App-content{
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 8vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #212121ad;
+  font-family: 'Ubuntu', sans-serif;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+  z-index: 5;
+  padding-right:1.5rem; 
+  a{color: aliceblue}
+  .fas{font-size: 2rem; color: aliceblue;}
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

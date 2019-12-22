@@ -1,0 +1,22 @@
+.contact-prev{
+    margin:.5rem;
+    width: 99%;
+    background-color: #ffffff7d;
+    border-radius:50px; 
+    img{
+        width: 65px; 
+        border-radius:50px; 
+        margin-right:1rem; 
+        padding: 5px;
+    }
+    transition: all .125s ease-out;
+    &:hover{
+        color: #282c34;
+        background-color:#feefaab4;
+        img{background-color: #feefaa59;}
+    }
+    @include for-mobile-layout{
+        width: 95%;
+    }
+
+}
