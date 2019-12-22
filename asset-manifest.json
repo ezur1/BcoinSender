@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "​https://ezur1.github.io/BcoinSender/static/css/main.4ad1cd6b.chunk.css",
+    "main.js": "​https://ezur1.github.io/BcoinSender/static/js/main.d9841986.chunk.js",
+    "main.js.map": "​https://ezur1.github.io/BcoinSender/static/js/main.d9841986.chunk.js.map",
+    "runtime-main.js": "​https://ezur1.github.io/BcoinSender/static/js/runtime-main.37276a11.js",
+    "runtime-main.js.map": "​https://ezur1.github.io/BcoinSender/static/js/runtime-main.37276a11.js.map",
+    "static/js/2.84acb293.chunk.js": "​https://ezur1.github.io/BcoinSender/static/js/2.84acb293.chunk.js",
+    "static/js/2.84acb293.chunk.js.map": "​https://ezur1.github.io/BcoinSender/static/js/2.84acb293.chunk.js.map",
+    "index.html": "​https://ezur1.github.io/BcoinSender/index.html",
+    "precache-manifest.55ffd8c7e4b1df6be8b80a5482882915.js": "​https://ezur1.github.io/BcoinSender/precache-manifest.55ffd8c7e4b1df6be8b80a5482882915.js",
+    "service-worker.js": "​https://ezur1.github.io/BcoinSender/service-worker.js",
+    "static/css/main.4ad1cd6b.chunk.css.map": "​https://ezur1.github.io/BcoinSender/static/css/main.4ad1cd6b.chunk.css.map",
+    "static/js/2.84acb293.chunk.js.LICENSE": "​https://ezur1.github.io/BcoinSender/static/js/2.84acb293.chunk.js.LICENSE",
+    "static/media/App.scss": "​https://ezur1.github.io/BcoinSender/static/media/bgc2.db54ac56.jpg",
+    "static/media/logo.svg": "​https://ezur1.github.io/BcoinSender/static/media/logo.c087b1b6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37276a11.js",
+    "static/js/2.84acb293.chunk.js",
+    "static/css/main.4ad1cd6b.chunk.css",
+    "static/js/main.d9841986.chunk.js"
+  ]
+}

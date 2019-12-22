@@ -1,0 +1,2 @@
+# https://www.tstxt.org/robotstxt.html
+User-agent: *
